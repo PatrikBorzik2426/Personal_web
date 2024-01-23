@@ -1,0 +1,27 @@
+@import './node_modules/tailwindcss/base.css';
+@import './node_modules/tailwindcss/components';
+@import './node_modules/tailwindcss/utilities';
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+/* Path: input.css */
+.custom-font{
+    font-family: 'Manrope', sans-serif;
+}
+
+.max-true-h{
+    max-height: 20vh;
+}
+
+.max-w-80{
+    width: 60vw;
+    max-width: 1000px;
+}
+
+.icon{
+    transform: scale(0.3);
+    -webkit-transform: scale(0.3);
+    -moz-transform: scale(0.3);
+    -ms-transform: scale(0.3);
+    -o-transform: scale(0.3);
+}
