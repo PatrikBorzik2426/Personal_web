@@ -2594,6 +2594,13 @@ video {
   fill: #e2e8f0;
 }
 
+@media not all and (min-width: 640px){
+  .max-sm\:mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 @media (min-width: 640px){
   .sm\:underline{
     text-decoration-line: underline;
